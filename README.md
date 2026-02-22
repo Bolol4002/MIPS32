@@ -17,11 +17,8 @@
 - Arithmetic and logic instruction
   ```
   ADD R1,R2,R3
-<<<<<<< HEAD
   ADD R1,R2,R0
-=======
   ADD R1,R2,R0      // r1=r2+0
->>>>>>> 072a9d8 (something lets check)
   SUB R12,R10,R9
   AND R20,R1,R5
   OR R11,R5,R6
@@ -29,7 +26,6 @@
   MUL R5,R6,R7
   SLT R5,R11,R12
   ```
-<<<<<<< HEAD
-=======
 - Arithmetic and logic instruction (Immediate operand)
->>>>>>> 072a9d8 (something lets check)
+![alt text](img/image.png)
+
