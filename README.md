@@ -99,3 +99,5 @@ Data is read from or written to memory (for load/store instructions), or branch 
 
 ### Write Back (WB): (4:58) 
 The final result is written back into the appropriate destination register in the register bank.
+
+- ![alt text](img/ex_pipe.png)
