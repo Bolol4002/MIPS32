@@ -70,3 +70,21 @@ beqz 001110
 - We are not implementing this type
 
 
+## MIPS instruction cycle
+- IF : insturction fetch
+- ID : Instruction decode/register fetch
+- EX : execution/effective address calculation
+- MEM : memory access/branch completion
+- WB : Register write back
+  Generic micro instructions carries out in the various steps.
+
+### instruction fetch
+- Here the insturction pointed to by PC is fetched from memory and also the next value of pc is computed.
+- For branch insturction new value of the pc may be the target address. SO PC is not updated in this stage; new value is stored in a register NPC
+
+```
+IR <- MEM[PC];
+NPC <- PC+1;
+```
+### Instruction Decode
+- the instuction already fetched in ir is decoded
