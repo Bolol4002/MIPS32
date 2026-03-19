@@ -88,3 +88,5 @@ NPC <- PC+1;
 ```
 ### Instruction Decode
 - the instuction already fetched in ir is decoded
+- decoding is done in paralled with reading the register operands rs and rt
+  - ![alt text](img/temp_sign.png)
