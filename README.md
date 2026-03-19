@@ -90,3 +90,12 @@ NPC <- PC+1;
 - the instuction already fetched in ir is decoded
 - decoding is done in paralled with reading the register operands rs and rt
   - ![alt text](img/temp_sign.png)
+
+### Execution (EX): 
+The Arithmetic Logic Unit (ALU) performs necessary calculations, such as arithmetic operations or computing effective memory addresses for load/store instructions.
+
+### Memory Access (MEM): (4:48) 
+Data is read from or written to memory (for load/store instructions), or branch conditions are evaluated.
+
+### Write Back (WB): (4:58) 
+The final result is written back into the appropriate destination register in the register bank.
